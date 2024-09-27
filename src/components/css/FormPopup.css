@@ -1,0 +1,40 @@
+.banner-style{
+    font-family:Poppins;
+    position:fixed;
+    color: white;
+    text-align: center;
+    width: 60%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;  padding:0;
+    margin-bottom: 25px;
+    z-index: 1000;
+}
+
+.overlay-styles{
+    position: fixed;
+    backdrop-filter: blur(5px);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 1000;
+}
+.form{
+    justify-content: center;
+}
+.popup-form-btn{
+    padding: 8px 140px;
+    background-color: #CC1A1A;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

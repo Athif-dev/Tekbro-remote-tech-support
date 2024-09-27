@@ -1,0 +1,134 @@
+
+/* package cards  */
+.boxes_style{
+    float: left;
+    margin: 90px 20px 40px 20px;
+}
+.boxes{
+    width: 350px;
+    height: 520px;
+    background-color: #FEFCFF;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(15px 10px 4px rgb(218, 218, 218));
+}
+.color{
+    background-color: #2A2D34;
+    border-radius: 10px 10px 0px 0px;
+    height: 80px;
+    margin: 0px 0px 20px 0px;
+}
+.color h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+.boxes h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 35px;
+    padding: 15px 0px 0px 0px;
+}
+.boxes .ico{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.ico > .faicon{
+    color: #CC1A1A;
+    size: 40px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.boxes h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin: 2px 0px 0px 2px;
+}
+.boxes p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 15px 0px 0px 15px;
+}
+.boxes h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 20px 0px 0px 20px;
+    font-size: 30px;
+}
+.boxes h4{
+    text-decoration:line-through;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0px 0px 0px 20px;
+    color: grey;
+    font-size: 20px;
+}
+
+/* mobile responsive */
+@media only screen and (max-device-width: 480px){
+    /* packages card  */
+    .boxes_style{
+        width: 50%;
+        float: left;
+        margin: 30px 0px 0px 0px;
+    }
+    .boxes{
+        width: 170px;
+        height: 305px;
+        background-color: #FEFCFF;
+        margin: 30px 10px 0px 10px;
+        border-radius: 7px;
+        border: 1px solid #b8b8b8;
+        filter: drop-shadow(10px 10px 4px rgb(161, 161, 161));
+    }
+    .color{
+        border-radius: 7px 7px 0px 0px;
+        height: 40px;
+        margin: 0px 0px 2px 0px;
+    }
+    .color h1{
+        font-weight: 400;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        font-size: 30px;
+    }
+    .boxes h1{
+        padding: 8px 0px 0px 0px;
+        font-size: 20px;
+    }
+    .boxes .ico{
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .ico > .faicon{
+        color: #CC1A1A;
+        size: 5px;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+    .boxes h6{
+        margin: 0px 0px 0px 0px;
+        font-size: 5px;
+    }
+    .boxes p{
+        font-size: 11px;
+        margin: 8px 0px 0px 10px;
+    }
+    .boxes h2{
+        padding: 20px 0px 0px 10px;
+        font-size: 18px;
+    }
+    .boxes h4{
+        text-decoration:line-through;
+        padding: 0px 0px 0px 10px;
+        font-size: 10px;
+    }
+    
+}

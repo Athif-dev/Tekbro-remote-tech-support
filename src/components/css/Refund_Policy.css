@@ -1,0 +1,89 @@
+.privacy-container{
+    margin: 80px 150px;
+    background-color: white;
+    padding: 40px 40px;
+    border-radius: 5px;
+}
+.privacy-container > h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #CC1A1A;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.privacy-container > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #2A2D34;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.privacy-container > h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2A2D34;
+    font-size: 30px;
+}
+
+
+/* contents section */
+.contents{
+    margin-top: 30px;
+}
+.contents > h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2A2D34;
+    font-size: 30px;
+}
+.contents > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #2A2D34;
+    font-size: 15px;
+}
+.contents > p > a{
+    text-decoration: none;
+    font-size: 40px;
+}
+.contents > ul > li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #2A2D34;
+    font-size: 15px;
+    margin-left: 17px;
+}
+
+
+/* Mobile responsive */
+@media only screen and (max-device-width: 480px){
+    .privacy-container{
+        margin: 60px 20px;
+        padding: 40px 40px;
+        border-radius: 3px;
+    }
+    .privacy-container > h1{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .privacy-container > p{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+
+    /* contents section */
+    .contents{
+        margin-top: 20px;
+    }
+    .consents > h2{
+        font-size: 20px;
+    }
+    .contents > p{
+        font-size: 12px;
+    }
+    .contents > ul > li{
+        font-size: 12px;
+    }
+    
+}

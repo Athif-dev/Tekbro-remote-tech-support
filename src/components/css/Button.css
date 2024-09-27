@@ -1,0 +1,27 @@
+.packages_button > button{
+    background-color: #2A2D34;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 4px 110px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px 0px 20px;
+    cursor: pointer;
+    color: white;
+}
+.packages_button > button:hover{
+    background-color: #CC1A1A;
+    transition: all 0.2s;
+}
+
+/* mobile responsive */
+@media only screen and (max-device-width: 480px){
+.packages_button > button{
+    font-size: 7px;
+    padding: 3px 65px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px 0px 6px;
+}
+}

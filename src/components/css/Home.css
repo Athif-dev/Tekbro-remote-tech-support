@@ -1,0 +1,139 @@
+.background{
+    background-image: url(../img/background.png) ;
+    background-size:1675px;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    background-image: opacity 0.5;
+}
+.container{
+    display: flex;
+    margin: 0px;
+}
+
+.mobile-content-container{
+    display: none;
+}
+.mobile-img-container{
+    display: none;
+}
+
+.img-container img{
+ width: 700px;
+object-fit: contain; 
+padding: 160px 0px 0px 80px;
+}
+.content-container{
+    margin: 150px 0px 0px 40px;
+}
+.content-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 20px 0px ;
+    color: #2A2D34;
+    line-height: 60px;
+    text-align: left;  
+}
+.content-container p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 15px 0px 35px 0px;
+    color: #CC1A1A;
+    font-size: 20px;
+}
+.content-container button{
+    padding: 15px 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #CC1A1A;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+}
+.btn-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.content-container button:hover{
+    transition: all 0.9s;
+    margin-top: -1px;
+}
+
+
+.footer{
+    margin: 0;
+}
+
+
+/* Mobile responsive */
+@media only screen and (max-device-width: 480px){
+    .navbar{
+        display: none;
+    }
+
+  /* body{
+    background-image: url(./img/background-mobile.png) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    background-image: opacity 0.5;
+} */
+
+
+  .container{
+    display: block;
+    margin: 0px;
+}
+.img-container{
+    display: none;
+}
+.content-container{
+    display: none;
+}
+.mobile-img-container{
+    display: block;
+}
+.mobile-content-container{
+    display: block;
+}
+
+.mobile-img-container img{
+ width: 300px;
+ object-fit: contain;
+ margin: 80px 40px 0px 40px;
+}
+.mobile-content-container{
+    margin: 10px 0px 0px 0px;
+}
+.mobile-content-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 40px 0px 0px 0px;  
+    text-align: center;
+}
+.mobile-content-container p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 0px 25px 0px;
+    color: #CC1A1A;
+    
+}
+.mobile-content-container button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 7px 25px;
+    background-color: #CC1A1A;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 115px;
+    color: white;
+}
+
+}

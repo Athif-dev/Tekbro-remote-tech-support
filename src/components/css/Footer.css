@@ -1,0 +1,252 @@
+.mobile-footer{
+  display: none;
+}
+footer{
+    height: 240px;
+    background-color: #2A2D34;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+} 
+
+.download-app{
+  display: flex;
+  background-color: #25272d;
+  height: 5vh;
+}
+.download-txt{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 200px;
+}
+.download-btn{
+  margin-left: 500px;
+  padding: 12px 50px;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  color: white;
+  background-color: #CC1A1A;
+  border: none;
+  cursor: pointer;
+}
+.download-btn:hover{
+  background-color: #ad1414;
+  transition: all 0.5s;
+}
+
+
+
+
+
+.footer-navcontainer{
+  display: flex;
+  margin-top: -20px;
+  width: 50%;
+}
+.footer h3{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px 0px 10px 10px;
+  }
+  .link{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px 0px 10px 0px;
+  }
+
+.footer-flex{
+  display: flex;
+  padding-top: 40px;
+}
+.footer-left{
+  padding: 10px 10px;
+  background-color: #2A2D34;
+  width: 50%;
+}
+.footer-right{
+  padding: 10px 20px;
+  background-color: #2A2D34;
+  width: 50%;
+}
+
+  .social-icons{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin: 20px 0px 0px 0px;
+    color: white;
+  }
+  .social-icons a{
+    padding: 0px 5px;
+  }
+  .social-icons a:hover{
+    background-color: #CC1A1A;
+    transition: all 0.5s;   
+    border-radius: 15px;
+  }
+  .social-icons .icon{
+    padding: 0px 1px;
+    cursor: pointer;
+  }
+
+.footer h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+.footer img{
+width: fit-content;
+height: 30px;
+margin: 0px 0px -5px 5px;
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 17px 41px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #2A2D34;
+}
+.footer-subpages{
+  display: flex;
+  width: 100%;
+  background-color: #2A2D34;
+  padding: 20px 0px 5px 360px;
+}
+.subpages-link{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 17px 9px 0px 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #2A2D34;
+}
+
+@media only screen and (max-device-width: 480px){
+  .pc-footer{
+    display: none;
+  }
+  .mobile-footer{
+    display: block;
+  }
+  footer{
+    height: 150px;
+    background-color: #2A2D34;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+} 
+
+.download-app{
+  display: flex;
+  background-color: #25272d;
+  height: 3vh;
+}
+
+.download-txt{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-left: 10px;
+}
+.download-btn{
+  margin-left: 80px;
+  padding: 2px 20px;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 8px;
+  color: white;
+  background-color: #CC1A1A;
+  border: none;
+  cursor: pointer;
+}
+
+
+.footer-flex{
+  padding: 0px;
+}
+.footer-navcontainer{
+  display: flex;
+  padding-left: 60px;
+  width: 100%;
+  padding-top: 20px;
+
+}
+.link{
+  font-size: 15px;
+}
+.footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-weight: 600;
+    font-size: 3px;
+    padding: 10px 0px 10px 5px;
+    margin: 0;
+  }
+  .social-icons{
+    margin: 0px 0px 0px 0px;
+  }
+  .social-icons a{
+    padding: 0px 2px;
+  }
+.social-icons .icon{
+    padding: 0px 4px;
+}
+.footer h4{
+  background-color: #2A2D34;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding: 10px 0px 0px 0px;
+    margin: 0;
+}
+.footer img{
+width: fit-content;
+height: 20px;
+padding: 0px 0px 0px 0px;
+}
+
+footer p{
+  background-color: #2A2D34;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    padding: 8px 0px 0px 10px;
+}
+.footer-subpages{
+  display: flex;
+  width: auto;
+  background-color: #2A2D34;
+  padding: 0px 0px 2px 25px;
+}
+.subpages-link{
+  text-decoration: none;
+  color: white;
+  font-size: 7px;
+  text-align: center;
+  padding: 5px 8px 0px 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #2A2D34;
+}
+
+}

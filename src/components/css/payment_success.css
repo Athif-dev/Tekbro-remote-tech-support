@@ -1,0 +1,16 @@
+.payment-section{
+    background-color: #F7F7F7;
+    height: 100vh;
+}
+.done-img{
+    object-fit: contain;
+    width: 20%;
+    margin: 200px 0px 0px 600px;
+}
+.payment-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #2A2D34;
+    text-align: center;
+}

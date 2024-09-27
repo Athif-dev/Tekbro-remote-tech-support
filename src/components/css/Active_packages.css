@@ -1,0 +1,118 @@
+.active-banner{
+    height: 100vh;
+}
+.header-txt{
+    text-align: center;
+    margin-top: 20px;
+    color: #2A2D34;
+    font-size: 45px;
+}
+#active-hr{
+    border: 1px solid #CC1A1A;
+     width: 450px;
+     color: #CC1A1A;
+     background-color: #CC1A1A;
+     margin: 1px 0px 0px 450px;
+}
+.active-boxes{
+    width: 40%;
+    background-color:white;
+    border: 2px solid lightgrey;
+    height: 350px;
+    margin: 40px 0px 0px 140px;
+    border-radius: 2px 2px 20px 20px;
+}
+.boxes-head{
+    background-color: #CC1A1A;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    border-radius: 2px 2px 0px 0px;
+}
+.box-head-text{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.box-txt{
+    font-family: 'Poppins', sans-serif;
+    color:#2A2D34;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.box-li{
+    font-family: 'Poppins', sans-serif;
+    color:#2A2D34;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0px 0px 100px;
+}
+
+
+/* mobile responsive */
+@media only screen and (max-device-width: 480px){
+    .active-banner{
+        height: 100vh;
+    }
+    .header-txt{
+        text-align: center;
+        margin-top: 80px;
+        color: #2A2D34;
+        font-size: 35px;
+    }
+    #active-hr{
+        font-family: 'Poppins', sans-serif;
+        border: 1px solid #CC1A1A;
+         width: 300px;
+         color: #CC1A1A;
+         background-color: #CC1A1A;
+         margin: 1px 0px 0px 50px;
+    }
+    .active-boxes{
+        width: 80%;
+        background-color:white;
+        border: 2px solid lightgrey;
+        height: 350px;
+        margin: 120px 0px 0px 40px;
+        border-radius: 2px 2px 20px 20px;
+    }
+    .boxes-head{
+        background-color: #CC1A1A;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        border-radius: 2px 2px 0px 0px;
+    }
+    .box-head-text{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .box-txt{
+        font-family: 'Poppins', sans-serif;
+        color:#2A2D34;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+    .box-li{
+        font-family: 'Poppins', sans-serif;
+        color:#2A2D34;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 20px 0px 0px 40px;
+    }
+}

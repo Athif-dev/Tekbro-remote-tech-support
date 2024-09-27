@@ -1,0 +1,77 @@
+
+.contact-head{
+    color: #2A2D34;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+#contact-hr{
+    border: 1px solid #CC1A1A;
+     width: 450px;
+     color: #CC1A1A;
+     background-color: #CC1A1A;
+     margin: 1px 0px 0px 465px;
+}
+
+.contact-info{
+    margin: 40px 0px 0px 60px;
+    max-width: 400px;
+}
+.contact-head-txt{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #CC1A1A;
+}
+.contact-subtxt{
+    color: #2A2D34;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 0px 0px 5px;
+}
+
+.footer-contact{
+    margin-top: 100px;
+}
+@media only screen and (max-device-width: 480px){
+    .contact-head{
+        color: #2A2D34;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #contact-hr{
+        border: 1px solid #CC1A1A;
+         width: 210px;
+         color: #CC1A1A;
+         background-color: #CC1A1A;
+         margin: 1px 0px 0px 90px;
+    }
+
+    .contact-info{
+        margin: 40px 0px 0px 40px;
+        max-width: 400px;
+    }
+    .contact-head-txt{
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        color: #CC1A1A;
+    }
+    .contact-subtxt{
+        color: #2A2D34;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        margin: 10px 0px 0px 5px;
+    }
+    
+    
+
+.footer-contact{
+    margin-top: 180px;
+}
+    }
